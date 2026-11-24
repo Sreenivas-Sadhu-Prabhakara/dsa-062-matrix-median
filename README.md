@@ -12,6 +12,13 @@ The median is the smallest value v such that at least half-plus-one of all eleme
 
 **Complexity:** O(R · log C · log(maxv−minv)) time, O(1) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
